@@ -1,5 +1,5 @@
 language: ruby
-script: "bundle exec jekyll build"
+script: "bundle exec jekyll build && bundle exec htmlproof ./_site"
 branches:
   only:
     - gh-pages
