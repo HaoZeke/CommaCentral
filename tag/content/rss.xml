@@ -373,17 +373,8 @@ c.draw = function() {
 <p></div><script async src="//codepen.io/assets/embed/ei.js"></script></p>
 
 <p>Isn't it beautiful.</p>
-	  ]]></description>
-	</item>
 
-	<item>
-	  <title>Mailing List</title>
-	  <link>/CommaCentral//a-full-and-comprehensive-style-mail</link>
-	  <author>Casper McFadden</author>
-	  <pubDate>2014-09-27T15:48:00+05:30</pubDate>
-	  <guid>/CommaCentral//a-full-and-comprehensive-style-mail</guid>
-	  <description><![CDATA[
-	     <!-- Begin MailChimp Signup Form -->
+<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
   #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -394,10 +385,8 @@ c.draw = function() {
 <form action="//eepurl.us12.list-manage.com/subscribe/post?u=8bde9c24ca91faeb65ba42ca1&amp;id=279a7bec7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
   <h2>Subscribe to our mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-  <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
+  <label for="mce-EMAIL">Email Address </label>
   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group input-group">
@@ -418,32 +407,6 @@ c.draw = function() {
 </div>
 
 <!--End mc_embed_signup-->
-
-
-<p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
-
-
-<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
-
-<hr />
-
-<h1 id="heading1">Heading 1</h1>
-
-<h2 id="heading2">Heading 2</h2>
-
-<h3 id="heading3">Heading 3</h3>
-
-<h4 id="heading4">Heading 4</h4>
-
-<h5 id="heading5">Heading 5</h5>
-
-<h6 id="heading6">Heading 6</h6>
-
-<hr />
-
-<p>Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
 	  ]]></description>
 	</item>
 
