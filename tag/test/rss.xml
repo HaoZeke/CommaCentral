@@ -3,7 +3,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>biomadeira.github.io/jasper</title>
+      <title>biomadeira.github.io/jasper/</title>
    
    <link>http://biomadeira.github.io/jasper/</link>
    <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
@@ -15,7 +15,7 @@
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>/jasper//a-full-and-comprehensive-style-test</link>
 	  <author>Casper McFadden</author>
-	  <pubDate>2014-09-27T11:18:00+01:00</pubDate>
+	  <pubDate>2014-09-27T15:48:00+05:30</pubDate>
 	  <guid>/jasper//a-full-and-comprehensive-style-test</guid>
 	  <description><![CDATA[
 	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
@@ -52,7 +52,7 @@
 
 <h3 id="bigimage">Big Image</h3>
 
-<p><img src="/assets/images/cover2.jpg" alt="Test Image" /></p>
+<p><img src="http://demo.ghost.io/content/images/2014/09/testimg1.jpeg" alt="Test Image" /></p>
 
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
@@ -60,7 +60,7 @@
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 
-<p><img src="/assets/images/small.jpg" alt="Small Test Image" /></p>
+<p><img src="http://demo.ghost.io/content/images/2014/09/testimg2.jpg" alt="Small Test Image" /></p>
 
 <p>Labore et dolore.</p>
 
