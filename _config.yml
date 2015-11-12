@@ -1,5 +1,6 @@
 # Website info
 name: 'Comma Central'
+title: 'Comma Central'
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
 # Author's info
@@ -12,12 +13,16 @@ image: 'assets/images/commacen.png'
 
 # Jykell configuration
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
 #highlighter: pygments
 paginate: 5
 language: 'en-uk'
 short_url: 'haozeke.github.io/CommaCentral'
 google_analytics: UA-70004924-1
-disqus: username
+addthis_id: ra-5644fcb7b7776b84
+disqus: commacentral
 baseurl: /CommaCentral/
 
 # Permalinks
@@ -28,6 +33,7 @@ permalink: /:title
 
 # gems and other configs
 gems: [jekyll-paginate]
+
 exclude: ["vendor"]
 
 # Additional settings available on the front-matter

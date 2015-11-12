@@ -28,3 +28,8 @@
 
     <meta name="generator" content="Jekyll 3.0.0" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}rss.xml" />
+
+{% if site.addthis_id %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
+{% endif %}

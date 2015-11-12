@@ -38,6 +38,7 @@
                 {% endfor %}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
+            <p><span class="time">{{ post.content | number_of_words | divided_by:140 }} </span> Minute Read</p>
         </footer>
     </article>
     {% endfor %}
