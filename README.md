@@ -1,7 +1,11 @@
 # Comma Central [![Build Status](https://travis-ci.org/HaoZeke/CommaCentral.svg?branch=master)](https://travis-ci.org/HaoZeke/CommaCentral)
 
 This is an open platform for publishing original content..
+
+
 Submit to the tcmailbot@gmail.com
+
+
 Op-eds, poems, sketches, pictures etc in hindi or english.
 
 ## Thanks 
