@@ -1,0 +1,51 @@
+---
+layout: default
+title: Contact
+cover: 'assets/images/cover1.jpg'
+class: 'contact-template'
+navigation: True
+logo: 'assets/images/cata.png'
+---
+<!-- The big featured header  -->
+<header class="main-header {% if page.cover %}"
+        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+        {% if page.navigation %}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {% endif %}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">Getting in touch.</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+    <!--[if IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie.css" | prepend: site.baseurl }}"><![endif]
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+-->
+
+</header>
+
+<body>
+<center><h4>
+<div id="contact">
+  <h1 class="pageTitle">Contact Us</h1>
+  <div class="contactContent">
+    <p class="intro">Let's talk.</p>
+  </div>
+  <form action="http://formspree.io/tcmailbot@gmail.com" method="POST">
+    <label for="name">Name</label>    
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="_replyto" ><br>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" ></textarea><br>
+    <input type="submit" value="Send" class="button">
+  </form>
+</div>
+</h4></center>
+</body>
