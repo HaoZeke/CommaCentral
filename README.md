@@ -27,11 +27,9 @@ All the contributors are also acknowledged to be indisposable.
 
 ## Copyright & License
 
-The site portions excepting the _posts and assets are licensed as follows.
 
-===================================
-
-For the portions of the website, excluding posts and post contents.... The following license is applicable.
+### For the portions of the website, excluding posts and post contents....
+The following license is applicable.
 
 =======================
 
@@ -59,7 +57,8 @@ SOFTWARE.
 
 ==================
 
-For the site post content....
+### For the site post content....
+
 The following license is applicable.
 
 ==================
