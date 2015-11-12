@@ -23,6 +23,10 @@ The beautiful markdown CC license was adapted from
 https://github.com/idleberg/Creative-Commons-Markdown
 
 
+Also, the following jekyll plugin was heavily modified for use.
+
+https://github.com/Nicolaidavies/NoHassle-jekyll
+
 All the contributors are also acknowledged to be indisposable.
 
 ## Copyright & License
