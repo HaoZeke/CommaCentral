@@ -5,7 +5,7 @@ title: आज भी वही अहसास है
 date:   2015-11-12 19:18:00
 tags: hindi poems
 subclass: 'post tag-test tag-content'
-categories: 'casper'
+categories: 'commacen'
 navigation: True
 logo: 'assets/images/cata.png'
 ---
