@@ -8,13 +8,13 @@
    <link>http://haozeke.github.io/CommaCentral/</link>
    <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
    <language>en-uk</language>
-   <managingEditor> Rohit Goswami</managingEditor>
+   <managingEditor> Comma Central</managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>I Have a Dream</title>
 	  <link>/CommaCentral//i-have-a-dream</link>
-	  <author>Rohit Goswami</author>
+	  <author>Comma Central</author>
 	  <pubDate>1963-08-28T10:18:00+00:00</pubDate>
 	  <guid>/CommaCentral//i-have-a-dream</guid>
 	  <description><![CDATA[
@@ -158,7 +158,7 @@
 	<item>
 	  <title>The Purpose of Education</title>
 	  <link>/CommaCentral//the-purpose-of-education</link>
-	  <author>Rohit Goswami</author>
+	  <author>Comma Central</author>
 	  <pubDate>1948-12-12T10:18:00+00:00</pubDate>
 	  <guid>/CommaCentral//the-purpose-of-education</guid>
 	  <description><![CDATA[
