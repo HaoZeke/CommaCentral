@@ -10,8 +10,6 @@ navigation: True
 logo: 'assets/images/cata.png'
 ---
 
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5644fcb7b7776b84" async="async"></script>
-
 #####खुशियोे की सौगात है,
 
 #####प्यार की बरसात है,
