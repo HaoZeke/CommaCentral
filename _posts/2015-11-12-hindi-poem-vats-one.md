@@ -7,7 +7,7 @@ tags: hindi poems
 subclass: 'post tag-test tag-content'
 categories: 'casper'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/cata.png'
 ---
 
 #####खुशियोे की सोगात है,

@@ -7,7 +7,7 @@ subclass: 'post tag-fiction'
 categories: 'casper'
 cover: 'assets/images/cover8.jpg'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/cata.png'
 ---
 Every afternoon, as they were coming from school, the children used to go and play in the Giant's garden.
 
