@@ -1,8 +1,6 @@
 language: ruby
 rvm:
 - 2.1
-cache: bundler
-before_script: bundle update
 script: "./scripts/cibuild"
 branches:
   only:
