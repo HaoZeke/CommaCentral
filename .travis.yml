@@ -1,6 +1,8 @@
 language: ruby
 rvm:
 - 2.1
+cache: bundler
+before_script: bundle update
 script: "./scripts/cibuild"
 branches:
   only:
@@ -8,9 +10,10 @@ branches:
   - master
   - "/pages-(.*)/"
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash .scripts/deploy.sh
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
+  .scripts/deploy.sh
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - GH_REF: github.com/HaoZeke/CommaCentral.git
-  - secure: YOXvdd3n0KnIBcBjMvdkqPxiRqNqfOHboGJQKlvQYSurDf2e5FS4NUTgUzSk9NrjbatOrVwJD1qR3fRH3Vn7Ti0QQpqOdAn1+g1PdEx+DlyL9Z52UKhEiC/+xI/E3c4vpgRsaJddbgpmwnnuIxg5IkOG4gAB+TEYwCmMpmJM5FXY4K4ahleN0qs3lRB+0e+Q8q9TYHjVWFvn7hqmVxPGmj6OCvlb64ESniVU833OoCUYQZt8zdur3zOBcq9EGgSQN3qBbXtCaJ+zDI8uucGknNlLHLGgymrq4T+Jqf7zHWx3FTNHOwTuIYdLSxeh1RFEBp4wljaE8PKXfM9Q3U52KRpCNt1OYO3Nwyxjsw3X8gGLjhjee5nug7ZLyyBalDGYeWkemYIsR7J1jtIBD1M+Q3FTawob1tKEmhineoAgcqoYs5ayH2lv8Xopybo2h3Ev9Rt0xtXt2Xl+MAcAB1KoJAIMKvxFdT5qiNjUsPbdG0DsKNSQtOM4m4QPDQ4AEu73T/h9NJDEz6sYCtVk4dUm3+zRNUUnaWnRgqGusMuy6d4x0hSY8frbTptvkQul2FlvfiL2Q3dDkRWXdiYD0WHX14jNKiPdfI+wHZyesOYPC6Px3o9LfgMB4jxhGVk/fVi6IiFx4HOdkkigCcy34EW80Ls4FnYLunP3J1iCNPSfC7k=
+  - secure: eUsMMODwjXwk2ETFfeqjYf1j33tdEUen7wl894TiXib6raz5aUR9Rrx5Ib4k4GTsgbgytcpbpXCBKNyM95TQeOTsLw1inYvwySi/VMMCXctm9l1fW8/t/DoJJq+Knib8ohR0qaSUk/KpfEiMewjdgBdc8A0AE2gb7giDVKSQ5KTFKC5HFQ9ZN6P8TcOvrhI1sHJmkAq03lbyibJ8E9LUDRTq8toy3JmDX/8ksODtk7YBNnQi4hd+oLAFuiqCLkHcLorklGMo0Kp6/8RBCKkeLo1E7Nk2eUHTCx8cc8KPUHr9P4DPoVYMM5927AKz8hITtW4IAeIYeAnMCMTu02Og/JK3NGWwvtnQ2iROYmGK8vZlcGSV0HpbQ9tbtsDidf/t0fEMPJE3UNcjGWlaU6hr5jol4DAL/1jI6fRvZX/86/l6KThxBCCFyLt5iJFjrs+wXzW40DaIk0a9N0yhOczh8CzSJTqHe/At997wUTeHcdxC9ZP+DWK7octFbykME1UYhnvehkXFY8OxCNbtMIzcjqHMx1/wnzB54M9gLaKwA2JFDcvUvMUiRT2jdZyJ0xAhJ1qykrb3IdppQkWRQwXP6ciicnjWb7IYX22OuWXgXiR+d7c/vwxLCzHVhrpOVt3qbPsQx/SDUzIYv2Ky8RplXivGMmIGtg+KvteBgmU89Xw=
