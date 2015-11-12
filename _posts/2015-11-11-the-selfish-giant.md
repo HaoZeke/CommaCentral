@@ -4,7 +4,7 @@ title: The Selfish Giant
 date:   2015-11-11 10:34:25
 tags: fiction fables
 subclass: 'post tag-fiction'
-categories: 'casper'
+categories: 'commacen'
 cover: 'assets/images/cover8.jpg'
 navigation: True
 logo: 'assets/images/cata.png'
@@ -100,8 +100,7 @@ Oscar Fingal O'Flahertie Wills Wilde (1854 - 1900) was an Irish writer, poet and
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_8bde9c24ca91faeb65ba42ca1_279a7bec7d" tabindex="-1" value=""></div>
+	</div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
