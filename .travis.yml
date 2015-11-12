@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1
-script: "_/scripts/cibuild"
+script: ".scripts/cibuild"
 branches:
   only:
   - gh-pages
@@ -9,7 +9,7 @@ branches:
   - "/pages-(.*)/"
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
-  _scripts/deploy.sh
+  .scripts/deploy.sh
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
