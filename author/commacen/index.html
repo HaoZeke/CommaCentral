@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Finding The Way Home</title>
+    <title>Author</title>
     <meta name="description" content="Comma Central - A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -52,7 +52,7 @@
     <link rel="alternate" type="application/rss+xml" title="Comma Central" href="/CommaCentral/rss.xml" />
 
 </head>
-<body class="home-template nav-closed">
+<body class="author-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -60,12 +60,12 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/CommaCentral/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/CommaCentral/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/CommaCentral/about.html">About</a></li>
         <li class="nav-fables " role="presentation"><a href="/CommaCentral/tag/fables/">Fables</a></li>
         <li class="nav-speeches " role="presentation"><a href="/CommaCentral/tag/speeches/">Speeches</a></li>
         <li class="nav-fiction " role="presentation"><a href="/CommaCentral/tag/fiction/">Fiction</a></li>
-        <li class="nav-author " role="presentation"><a href="/CommaCentral/author/casper/">Author</a></li>
+        <li class="nav-author  nav-current" role="presentation"><a href="/CommaCentral/author/casper/">Author</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="/CommaCentral/rss.xml">Subscribe</a>
 </div>
@@ -74,31 +74,45 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/CommaCentral/assets/images/cover1.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/CommaCentral/"><img src="/CommaCentral/assets/images/ghost.png" alt="Blog Logo" /></a>
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+    <header class="main-header author-head " style="background-image: url(/CommaCentral/assets/images/cover4.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/CommaCentral/"><img src="/CommaCentral/assets/images/cata.png" alt="Blog Logo" /></a>
+            
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
         
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        <figure class="author-image">
+            <div class="img" style="background-image: url(/CommaCentral/assets/images/commacen.png)"><span class="hidden">Comma Central's Picture</span></div>
+        </figure>
         
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Comma Central</h1>
-            <h2 class="page-description">A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</h2>
+        <h1 class="author-title">Comma Central</h1>
+        
+            <h2 class="author-bio">Curator and bot extraordnaire</h2>
+        
+        <div class="author-meta">
+            <span class="author-location icon-location">Kanpur, India</span>
+            <span class="author-link icon-link"><a href="http://haozeke.github.io/CommaCentral/">haozeke.github.io/CommaCentral</a></span>
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>7 posts</span>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
@@ -106,97 +120,13 @@
     
     <span class="page-number"> Page 1 of 2 </span>
      
-        <a class="older-posts" href="/CommaCentral/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/CommaCentral/author/commacen/page2/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
         
     </div>
 
     <!-- This is the post loop - each post will be output using this markup -->
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/CommaCentral//hindi-poem-vats-one">आज भी वही अहसास है</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p><h5>खुशियोे की सौगात है,</h5> <h5>प्यार की बरसात है,</h5> <h5>एक धुंधला सा चेहरा पर आखो में साफ है,</h5> <h5>इन वीरान गलियो में भीड़ सी लग जाती है,</h5>... <a class="read-more" href="/CommaCentral//hindi-poem-vats-one">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/CommaCentral/author/commacen'>Comma Central</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/CommaCentral/tag/hindi'>Hindi</a>,
-                       
-                
-                    
-                       <a href='/CommaCentral/tag/poems'>Poems</a>
-                       
-                
-            
-            <time class="post-date" datetime="2015-11-12">12 Nov 2015</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/CommaCentral//the-selfish-giant">The Selfish Giant</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p><p>Every afternoon, as they were coming from school, the children used to go and play in the Giant&#39;s garden.</p> <p>It was a large lovely garden, with... <a class="read-more" href="/CommaCentral//the-selfish-giant">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/CommaCentral/author/commacen'>Comma Central</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/CommaCentral/tag/fiction'>Fiction</a>,
-                       
-                
-                    
-                       <a href='/CommaCentral/tag/fables'>Fables</a>
-                       
-                
-            
-            <time class="post-date" datetime="2015-11-11">11 Nov 2015</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/CommaCentral//a-full-and-comprehensive-style-test">A Full and Comprehensive Style Test</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p><p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to... <a class="read-more" href="/CommaCentral//a-full-and-comprehensive-style-test">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/CommaCentral/author/commacen'>Comma Central</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/CommaCentral/tag/test'>Test</a>,
-                       
-                
-                    
-                       <a href='/CommaCentral/tag/content'>Content</a>
-                       
-                
-            
-            <time class="post-date" datetime="2014-09-27">27 Sep 2014</time>
-        </footer>
-    </article>
     
     <article class="post">
         <header class="post-header">
@@ -250,6 +180,82 @@
         </footer>
     </article>
     
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/CommaCentral//the-purpose-of-education">The Purpose of Education</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p><p>As I engage in the so-called &quot;bull sessions&quot; around and about the school, I too often find that most college men have a misconception of the... <a class="read-more" href="/CommaCentral//the-purpose-of-education">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/CommaCentral/author/commacen'>Comma Central</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/CommaCentral/tag/speeches'>Speeches</a>,
+                       
+                
+                    
+                       <a href='/CommaCentral/tag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="1948-12-12">12 Dec 1948</time>
+        </footer>
+    </article>
+    
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/CommaCentral//out-to-sea">Out to Sea</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p><p>I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of... <a class="read-more" href="/CommaCentral//out-to-sea">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/CommaCentral/author/commacen'>Comma Central</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/CommaCentral/tag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="1912-07-24">24 Jul 1912</time>
+        </footer>
+    </article>
+    
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/CommaCentral//looking-glass-house">Looking-Glass house</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p><p>One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten... <a class="read-more" href="/CommaCentral//looking-glass-house">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/CommaCentral/assets/images/commacen.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/CommaCentral/author/commacen'>Comma Central</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/CommaCentral/tag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="1871-03-18">18 Mar 1871</time>
+        </footer>
+    </article>
+    
 
     <!-- Previous/next page links - displayed on every page -->
     
@@ -257,7 +263,7 @@
     
     <span class="page-number"> Page 1 of 2 </span>
      
-        <a class="older-posts" href="/CommaCentral/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/CommaCentral/author/commacen/page2/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
     
