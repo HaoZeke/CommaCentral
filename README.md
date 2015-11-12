@@ -6,7 +6,6 @@ Op-eds, poems, sketches, pictures etc in hindi or english.
 
 ## Thanks 
 
-Most of the work has been already done by the Ghost team and Rosario. Many thanks to them :smile:
 This is based of the jasper theme. [ https://github.com/biomadeira/jasper ]
 
 
