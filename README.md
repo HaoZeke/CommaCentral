@@ -16,7 +16,10 @@ This is based of the jasper theme. [ https://github.com/biomadeira/jasper ]
 The workflow was largely inspired by the travis jekyll setup, here
 
 https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example
+
+
 The beautiful markdown CC license was adapted from
+
 https://github.com/idleberg/Creative-Commons-Markdown
 
 
