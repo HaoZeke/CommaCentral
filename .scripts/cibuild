@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 bundle exec jekyll build
-bundle exec rake minify_html
-bundle exec rake optimizeimages
+bundle exec rake minify
 #bundle exec htmlproof ./_site

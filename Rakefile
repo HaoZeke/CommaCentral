@@ -1,4 +1,5 @@
 require "html_compressor"
+require "yui/compressor"
 ##############
 # Optimizes  #
 ##############
@@ -127,5 +128,31 @@ task :minify_html do
 end
 
 desc "Minify static assets"
-task :minify => [:minify_css, :minify_html] do
+task :minify => [:minify_css, :minify_html, :minify_js] do
+end
+
+desc "Minify CSS"
+task :minify_css do
+  puts "## Minifying CSS"
+  compressor = YUI::CssCompressor.new
+  Dir.glob("_site/**/*.css").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify JS"
+task :minify_js do
+  puts "## Minifying JS"
+  compressor = YUI::JavaScriptCompressor.new
+  Dir.glob("_site/**/*.js").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
 end
