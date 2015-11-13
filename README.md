@@ -10,22 +10,18 @@ Op-eds, poems, sketches, pictures etc in hindi or english.
 
 ## Thanks 
 
-This is based of the jasper theme. [ https://github.com/biomadeira/jasper ]
+This is based of the [jasper](https://github.com/biomadeira/jasper) theme. 
 
 
-The workflow was largely inspired by the travis jekyll setup, here
-
-https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example
+The workflow was largely inspired by the travis jekyll setup, [here](https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example)
 
 
-The beautiful markdown CC license was adapted from
-
-https://github.com/idleberg/Creative-Commons-Markdown
+The beautiful markdown CC license was adapted from [here](https://github.com/idleberg/Creative-Commons-Markdown)
 
 
-Also, the following jekyll plugin was heavily modified for use.
 
-https://github.com/Nicolaidavies/NoHassle-jekyll
+Also, the following [jekyll plugin](https://github.com/Nicolaidavies/NoHassle-jekyll) was heavily modified for use.
+
 
 All the contributors are also acknowledged to be indisposable.
 
