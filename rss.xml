@@ -8,7 +8,16 @@
     <title>Comma Central</title>
     <link>http://haozeke.github.io/CommaCentral/</link>
     <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
-    <pubDate>Thu, 12 Nov 2015 19:18:00 +0000</pubDate>
+    <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Doubt</title>
+      <link>http://haozeke.github.io/CommaCentral//Doubt</link>
+      <description>h1. Doubt
+
+</description>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      <dc:date>2015-11-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>आज भी वही अहसास है</title>
       <link>http://haozeke.github.io/CommaCentral//hindi-poem-vats-one</link>
@@ -513,6 +522,6 @@ The 16th president of the USA until he was assassinated in April of 1963. He led
       <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
       <dc:date>1863-11-19T10:18:00+00:00</dc:date>
     </item>
-    <dc:date>2015-11-12T19:18:00+00:00</dc:date>
+    <dc:date>2015-11-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
