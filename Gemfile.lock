@@ -65,6 +65,7 @@ GEM
       yell (~> 2.0)
     html_compressor (0.0.3)
       POpen4 (>= 0.1.4)
+    htmlcompressor (0.3.0)
     i18n (0.7.0)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
@@ -88,6 +89,10 @@ GEM
     jekyll-mentions (0.2.1)
       html-pipeline (~> 1.9.0)
       jekyll (~> 2.0)
+    jekyll-minifier (0.0.1)
+      htmlcompressor (>= 0.1.2)
+      jekyll
+      yui-compressor (>= 0.12.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.8.0)
       jekyll (>= 2.0)
@@ -123,6 +128,7 @@ GEM
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -140,6 +146,7 @@ GEM
       thread_safe (~> 0.1)
     yajl-ruby (1.2.1)
     yell (2.0.5)
+    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -148,7 +155,9 @@ DEPENDENCIES
   github-pages
   html-proofer
   html_compressor
+  jekyll-minifier
   mini_magick
+  rake
 
 BUNDLED WITH
    1.10.6

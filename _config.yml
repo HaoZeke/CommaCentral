@@ -35,7 +35,9 @@ sass:
  style: :compressed
 
 # gems and other configs
-gems: [jekyll-paginate]
+gems: 
+	- jekyll-paginate
+	- jekyll-minifier
 
 exclude: ["vendor"]
 
