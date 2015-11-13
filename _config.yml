@@ -30,7 +30,8 @@ permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
 
-# Compress our CSS sass:
+# Compress our CSS 
+sass:
  style: :compressed
 
 # gems and other configs
