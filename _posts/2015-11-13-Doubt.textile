@@ -1,4 +1,15 @@
-Doubt
+---
+layout: post
+cover: 'assets/images/cover_gen.jpg'
+title: Doubt
+date: 2015-11-13
+tags: generic
+subclass: 'post tag-test tag-content'
+categories: 'commacen'
+navigation: True
+logo: 'assets/images/cata.png'
+---
+h1. Doubt
 
 Once on a blank ruled page, 
 She tried scribbling a form...
