@@ -1,4 +1,4 @@
-# Comma Central [![Build Status](https://travis-ci.org/HaoZeke/CommaCentral.svg?branch=master)](https://travis-ci.org/HaoZeke/CommaCentral) ![License](https://img.shields.io/badge/License-CC-blue.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg
+# Comma Central [![Build Status](https://travis-ci.org/HaoZeke/CommaCentral.svg?branch=master)](https://travis-ci.org/HaoZeke/CommaCentral) ![License](https://img.shields.io/badge/License-CC-blue.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 This is an open platform for publishing original content..
 
