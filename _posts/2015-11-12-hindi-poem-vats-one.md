@@ -1,6 +1,8 @@
 ---
 layout: post
 cover: 'assets/images/cover7.jpg'
+author: 'Vatsala'
+username: 'vats'
 title: आज भी वही अहसास है
 date:   2015-11-12 19:18:00
 tags: hindi poems
