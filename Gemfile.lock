@@ -1,6 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    POpen4 (0.1.4)
+      Platform (>= 0.4.0)
+      open4
+    Platform (0.4.0)
     RedCloth (4.2.9)
     activesupport (4.2.5)
       i18n (~> 0.7)
@@ -21,8 +25,10 @@ GEM
     ethon (0.8.0)
       ffi (>= 1.3.0)
     execjs (2.6.0)
+    exifr (1.2.3.1)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    fspath (2.1.1)
     gemoji (2.1.0)
     github-pages (39)
       RedCloth (= 4.2.9)
@@ -59,7 +65,20 @@ GEM
       parallel (~> 1.3)
       typhoeus (~> 0.7)
       yell (~> 2.0)
+    html_compressor (0.0.3)
+      POpen4 (>= 0.1.4)
     i18n (0.7.0)
+    image_optim (0.21.0)
+      exifr (~> 1.2, >= 1.2.2)
+      fspath (~> 2.1)
+      image_size (~> 1.3)
+      in_threads (~> 1.3)
+      progress (~> 3.0, >= 3.0.1)
+    image_optim_pack (0.2.1.20151113)
+      fspath (~> 2.1)
+      image_optim (~> 0.19)
+    image_size (1.4.1)
+    in_threads (1.3.1)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -102,19 +121,23 @@ GEM
       rb-inotify (>= 0.9)
     maruku (0.7.0)
     mercenary (0.3.5)
+    mini_magick (4.3.6)
     mini_portile (0.6.2)
     minitest (5.8.2)
     net-dns (0.8.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    open4 (1.3.4)
     parallel (1.6.1)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
+    progress (3.1.0)
     public_suffix (1.5.2)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -132,6 +155,7 @@ GEM
       thread_safe (~> 0.1)
     yajl-ruby (1.2.1)
     yell (2.0.5)
+    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -139,6 +163,12 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  html_compressor
+  image_optim
+  image_optim_pack
+  mini_magick
+  rake
+  yui-compressor
 
 BUNDLED WITH
    1.10.6
