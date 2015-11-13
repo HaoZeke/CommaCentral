@@ -3,13 +3,12 @@ layout: post
 cover: 'assets/images/cover_gen.jpg'
 title: Doubt
 date: 2015-11-13
-tags: poem
+tags: poems
 subclass: 'post tag-test tag-content'
 categories: 'commacen'
 navigation: True
 logo: 'assets/images/cata.png'
 ---
-h1. Doubt
 
 Once on a blank ruled page, 
 She tried scribbling a form...
@@ -43,6 +42,10 @@ Trying to convince, like it never happened!!
 
 
 By Amanpreet Kaur
+3<sup>rd</sup>
+Fashion Design Department
+NIFT Bhubaneshwar
+
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
